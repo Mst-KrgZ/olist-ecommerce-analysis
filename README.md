@@ -6,7 +6,7 @@ Brazilian e-commerce analysis project using the Olist dataset, focusing on deliv
 
 Streamlit Community Cloud
 
-👉 [Click here to open the app](https://olist-ecommerce-analysis-xtrytimgbgkgnqla2e5grv.streamlit.app/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-Live%20Demo-FF4B4B?logo=streamlit&logoColor=white)](https://olist-ecommerce-analysis-xtrytimgbgkgnqla2e5grv.streamlit.app/)
 
 ## 📌 Project Overview
 
