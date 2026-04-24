@@ -1,58 +1,45 @@
-# 📊 Olist E-Commerce Data Analysis
+# 📦 Olist E-Commerce Analytics Dashboard
 
-## 🚀 Project Overview
-This project analyzes the Brazilian e-commerce dataset (Olist) to uncover key business insights related to customer satisfaction, delivery performance, revenue distribution, and customer loyalty.
+Brazilian e-commerce analysis project using the Olist dataset, focusing on delivery performance, customer satisfaction, revenue distribution, and customer loyalty.
 
-The goal is to move beyond simple visualization and provide **data-driven decision support**.
+## 🚀 Live Demo
 
----
+Streamlit Community Cloud
 
-## 🎯 Key Questions
-- How does delivery delay impact customer satisfaction?
-- Which product categories generate the most revenue?
-- Does seller location affect delivery performance?
-- Do satisfied customers purchase more frequently?
+👉 [Click here to open the app](https://olist-ecommerce-analysis-xtrytimgbgkgnqla2e5grv.streamlit.app/)
 
----
+## 📌 Project Overview
 
-## 📊 Key Insights
+End-to-end data analytics project based on the Olist Brazilian E-Commerce Dataset.  
+The project combines data cleaning, feature engineering, hypothesis testing, interactive visualization, and dashboard development to support data-driven business decisions.
 
-### 📦 Delivery & Satisfaction
-Delivery delays significantly reduce customer satisfaction. Orders delivered late show a clear drop in review scores.
+## 🧠 Hypotheses
 
-### 🛍️ Revenue Concentration
-A small number of product categories generate the majority of revenue (Pareto effect).
+| Hypothesis | Description |
+|---|---|
+| H1 | Delivery delays reduce customer satisfaction |
+| H2 | Product categories differ significantly in revenue contribution |
+| H3 | Seller/customer location affects delivery performance |
+| H4 | Higher satisfaction is associated with repeat purchases |
 
-### 📍 Location Impact
-Orders fulfilled within the same state are delivered faster and with fewer delays.
+## 📊 Features
 
-### ⭐ Customer Loyalty
-Higher review scores are associated with higher repeat purchase rates.
+- Interactive Streamlit dashboard
+- KPI cards for orders, revenue, review score, delivery time and delay rate
+- Sidebar filters for date range and customer state
+- Hypothesis-based navigation
+- Plotly visualizations
+- Business-focused insights and recommendations
 
----
+## 🗂️ Project Structure
 
-## 📈 Dashboard Preview
-
-![Dashboard Overview](images/dashboard_overview.png)
-
----
-
-## 🧠 Methodology
-
-- Data Cleaning & Preprocessing
-- Feature Engineering (delivery time, delay, revenue)
-- Descriptive Analytics & Hypothesis Testing
-- Interactive Dashboard (Streamlit)
-
----
-
-## 🛠️ Tech Stack
-
-- Python (Pandas, NumPy)
-- Plotly (Visualization)
-- Streamlit (Dashboard)
-- Git & GitHub
-
----
-
-## 📂 Project Structure
+```text
+olist-ecommerce-analysis/
+├── data/               # Cleaned datasets
+├── dashboard/
+│   └── app.py          # Main Streamlit application
+├── src/                # Analysis notebooks
+├── plots/              # Exported visualizations
+├── images/             # Dashboard screenshots
+├── requirements.txt    # Python dependencies
+└── README.md
